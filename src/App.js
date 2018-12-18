@@ -18,7 +18,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Learn React test commit from PC windows
           </a>
           <DangerButton />
         </header>
