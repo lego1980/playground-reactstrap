@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { DangerButton } from './components/Button.js';
-import { Example } from './components/TooltipExample.js';
+import { ExampleAlert1, ExampleAlert2, ExampleAlert3 }  from './components/ExampleAlert';
+import ExampleBadge1 from './components/ExampleModuleBadge';
+import { ExampleBreadcrumb1, ExampleBreadcrumb2 }  from './components/ExampleBreadcrumb';
 
 class App extends Component {
   render() {
@@ -19,10 +20,14 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            test Learn React test commit from PC windows
+            Learn Reactstrap
           </a>
-          <DangerButton />
-          <Example />
+          <ExampleAlert1 />
+          <ExampleAlert2 />
+          <ExampleAlert3 />
+          <ExampleBadge1 />
+          <ExampleBreadcrumb1 />
+          <ExampleBreadcrumb2 />
         </header>
       </div>
     );
