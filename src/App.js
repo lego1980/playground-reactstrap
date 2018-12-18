@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { DangerButton } from './components/Button.js';
+import { Example } from './components/TooltipExample.js';
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
             Learn React
           </a>
           <DangerButton />
+          <Example />
         </header>
       </div>
     );
