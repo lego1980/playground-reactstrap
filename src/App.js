@@ -16,6 +16,7 @@ import { ExampleCard1 }  from './components/ExampleCard';
 import ExampleDropdown1  from './components/ExampleModuleDropdown';
 import { ExampleCarousel1 } from './components/ExampleCarousel';
 import { ExampleCollapse1 } from './components/ExampleCollapse';
+import ExampleFade1 from './components/ExampleModuleFade'
 
 class App extends Component {
   render() {
@@ -38,9 +39,10 @@ class App extends Component {
         <ExampleButton1 />
         <ExampleButtonGroup1 />
         <ExampleCard1 /> 
-        <ExampleDropdown1 />
         <ExampleCarousel1 />
-        <ExampleCollapse1 />      
+        <ExampleCollapse1 />        
+        <ExampleDropdown1 />
+        <ExampleFade1 />      
       </div>
     );
   }
