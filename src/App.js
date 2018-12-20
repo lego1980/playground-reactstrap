@@ -1,6 +1,12 @@
+//base
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+
+//requried for reactstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+//examples
 import { ExampleAlert1, ExampleAlert2, ExampleAlert3 }  from './components/ExampleAlert';
 import ExampleBadge1 from './components/ExampleModuleBadge';
 import ExampleButton1 from './components/ExampleModuleButton';
@@ -8,6 +14,8 @@ import ExampleButtonGroup1 from './components/ExampleModuleButtonGroup';
 import { ExampleBreadcrumb1, ExampleBreadcrumb2 }  from './components/ExampleBreadcrumb';
 import { ExampleCard1 }  from './components/ExampleCard';
 import ExampleDropdown1  from './components/ExampleModuleDropdown';
+import { ExampleCarousel1 } from './components/ExampleCarousel';
+import { ExampleCollapse1 } from './components/ExampleCollapse';
 
 class App extends Component {
   render() {
@@ -20,7 +28,7 @@ class App extends Component {
               Edit <code>src/App.js</code> and save to reload.
             </p>
           </header>
-        </div>
+        </div>        
         <ExampleAlert1 />
         <ExampleAlert2 />
         <ExampleAlert3 />
@@ -30,7 +38,9 @@ class App extends Component {
         <ExampleButton1 />
         <ExampleButtonGroup1 />
         <ExampleCard1 /> 
-        <ExampleDropdown1 />      
+        <ExampleDropdown1 />
+        <ExampleCarousel1 />
+        <ExampleCollapse1 />      
       </div>
     );
   }

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Alert } from 'reactstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const ExampleAlert1 = (props) => {
     return (

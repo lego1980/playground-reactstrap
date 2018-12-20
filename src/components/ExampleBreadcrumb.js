@@ -1,6 +1,5 @@
 import React from 'react';
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const ExampleBreadcrumb1 = (props) => {
     return (

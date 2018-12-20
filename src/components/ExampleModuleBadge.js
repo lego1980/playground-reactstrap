@@ -1,6 +1,5 @@
 import React from 'react';
 import { Badge } from 'reactstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class ExampleBadge1 extends React.Component {
     render() {
