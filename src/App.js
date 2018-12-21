@@ -17,6 +17,7 @@ import ExampleDropdown1  from './components/ExampleModuleDropdown';
 import { ExampleCarousel1 } from './components/ExampleCarousel';
 import { ExampleCollapse1 } from './components/ExampleCollapse';
 import ExampleFade1 from './components/ExampleModuleFade'
+import ExamplePopover1 from './components/ExampleModulePopover';
 
 class App extends Component {
   render() {
@@ -29,7 +30,10 @@ class App extends Component {
               Edit <code>src/App.js</code> and save to reload.
             </p>
           </header>
-        </div>        
+        </div>
+
+        <ExamplePopover1 />
+                
         <ExampleAlert1 />
         <ExampleAlert2 />
         <ExampleAlert3 />
@@ -42,7 +46,8 @@ class App extends Component {
         <ExampleCarousel1 />
         <ExampleCollapse1 />        
         <ExampleDropdown1 />
-        <ExampleFade1 />      
+        <ExampleFade1 /> 
+        
       </div>
     );
   }
