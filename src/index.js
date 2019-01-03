@@ -1,4 +1,4 @@
-import React from 'react';
+import React from '../../../Library/Caches/typescript/2.9/node_modules/@types/react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Main from './Main';
