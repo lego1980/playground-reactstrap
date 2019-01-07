@@ -43,7 +43,7 @@ export default class MainNavbar extends React.Component {
                 <NavLink href="/">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/about">About</NavLink>
+                <NavLink href="/about/">About</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
@@ -51,10 +51,10 @@ export default class MainNavbar extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    Log In
+                    <NavLink href="/account/">Log In</NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                    Sign Up
+                    <NavLink href="/register/">Sign Up</NavLink>
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
